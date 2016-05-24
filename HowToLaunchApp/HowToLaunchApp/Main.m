@@ -31,9 +31,6 @@ __attribute__((constructor)) void dylibMain()
     CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, useNewSetting, CFSTR("com.wonderland.changeset"), NULL,         CFNotificationSuspensionBehaviorCoalesce);
     
     CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, blockOrNot, CFSTR("com.wonderland.blockornot"), NULL,         CFNotificationSuspensionBehaviorCoalesce);
-    
-    
-    NSLog(@"gitHug 测试");
 
 }//主入口
 
