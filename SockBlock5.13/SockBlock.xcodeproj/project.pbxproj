@@ -24,6 +24,7 @@
 		694FED7B1CDB364900981458 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694FED7A1CDB364900981458 /* CoreGraphics.framework */; };
 		6979EFE31CE9C75700C39CBD /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 6979EFE11CE9C75700C39CBD /* Data.h */; };
 		6979EFE41CE9C75700C39CBD /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979EFE21CE9C75700C39CBD /* Data.m */; };
+		699E13C71CF443330023A50B /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 699E13C61CF443330023A50B /* Header.h */; };
 		69D3799F1CE5D6ED00887EF6 /* ShowWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D3799D1CE5D6ED00887EF6 /* ShowWindow.h */; };
 		69D379A01CE5D6ED00887EF6 /* ShowWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D3799E1CE5D6ED00887EF6 /* ShowWindow.m */; };
 		69D379A31CE5D9CC00887EF6 /* IPTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D379A11CE5D9CC00887EF6 /* IPTableViewController.h */; };
@@ -59,6 +60,7 @@
 		694FED7A1CDB364900981458 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6979EFE11CE9C75700C39CBD /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		6979EFE21CE9C75700C39CBD /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		699E13C61CF443330023A50B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		69D3799D1CE5D6ED00887EF6 /* ShowWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowWindow.h; sourceTree = "<group>"; };
 		69D3799E1CE5D6ED00887EF6 /* ShowWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowWindow.m; sourceTree = "<group>"; };
 		69D379A11CE5D9CC00887EF6 /* IPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPTableViewController.h; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				A19C136A1CDC93CF00B6792D /* HookTool.m */,
 				BFDB05631BA27A630078C82F /* fishhook.c */,
 				BFDB05641BA27A630078C82F /* fishhook.h */,
+				699E13C61CF443330023A50B /* Header.h */,
 				69D3799C1CE5D6B600887EF6 /* Windows */,
 				694FED571CDB35B900981458 /* WindowTool */,
 				BF4EBF1E1B9ABF3500EE2E3F /* Package */,
@@ -260,6 +263,7 @@
 				69D379A31CE5D9CC00887EF6 /* IPTableViewController.h in Headers */,
 				BF4EBF351B9AC01A00EE2E3F /* TheMain.h in Headers */,
 				694FED6F1CDB35B900981458 /* UIViewExt.h in Headers */,
+				699E13C71CF443330023A50B /* Header.h in Headers */,
 				694FED751CDB35B900981458 /* LogView.h in Headers */,
 				694FED6B1CDB35B900981458 /* UIButton+NMCategory.h in Headers */,
 				694FED691CDB35B900981458 /* ToolClass.h in Headers */,
