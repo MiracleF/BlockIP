@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695390131CE575EF006402EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695390121CE575EF006402EA /* Foundation.framework */; };
+		6953901E1CE575EF006402EA /* HowToLaunchApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6953901D1CE575EF006402EA /* HowToLaunchApp.mm */; };
+		695390291CE57676006402EA /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 695390281CE57676006402EA /* libsubstrate.dylib */; };
+		695390E11CE5BCE1006402EA /* Main.h in Headers */ = {isa = PBXBuildFile; fileRef = 695390DF1CE5BCE1006402EA /* Main.h */; };
+		695390E21CE5BCE1006402EA /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695390E01CE5BCE1006402EA /* Main.m */; };
+		695390E51CE5BD4C006402EA /* OpenApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 695390E31CE5BD4C006402EA /* OpenApp.h */; };
+		695390E61CE5BD4C006402EA /* OpenApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 695390E41CE5BD4C006402EA /* OpenApp.m */; };
+		695390E81CE5BDFE006402EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695390E71CE5BDFE006402EA /* UIKit.framework */; };
+		6960FB751CEAF6E900FE9683 /* GetAllApps.h in Headers */ = {isa = PBXBuildFile; fileRef = 6960FB731CEAF6E900FE9683 /* GetAllApps.h */; };
+		6960FB761CEAF6E900FE9683 /* GetAllApps.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960FB741CEAF6E900FE9683 /* GetAllApps.m */; };
+		6960FB781CEAF82900FE9683 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6960FB771CEAF82900FE9683 /* Header.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6953900F1CE575EF006402EA /* HowToLaunchApp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = HowToLaunchApp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		695390121CE575EF006402EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		695390171CE575EF006402EA /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		695390181CE575EF006402EA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		6953901A1CE575EF006402EA /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		6953901B1CE575EF006402EA /* HowToLaunchApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HowToLaunchApp-Prefix.pch"; sourceTree = "<group>"; };
+		6953901C1CE575EF006402EA /* HowToLaunchApp.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HowToLaunchApp.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6953901D1CE575EF006402EA /* HowToLaunchApp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HowToLaunchApp.mm; sourceTree = "<group>"; };
+		695390221CE575EF006402EA /* HowToLaunchApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HowToLaunchApp.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/HowToLaunchApp.plist; sourceTree = "<group>"; };
+		695390281CE57676006402EA /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		695390DF1CE5BCE1006402EA /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		695390E01CE5BCE1006402EA /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		695390E31CE5BD4C006402EA /* OpenApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenApp.h; sourceTree = "<group>"; };
+		695390E41CE5BD4C006402EA /* OpenApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenApp.m; sourceTree = "<group>"; };
+		695390E71CE5BDFE006402EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6960FB731CEAF6E900FE9683 /* GetAllApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllApps.h; sourceTree = "<group>"; };
+		6960FB741CEAF6E900FE9683 /* GetAllApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllApps.m; sourceTree = "<group>"; };
+		6960FB771CEAF82900FE9683 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6953900B1CE575EF006402EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695390E81CE5BDFE006402EA /* UIKit.framework in Frameworks */,
+				695390131CE575EF006402EA /* Foundation.framework in Frameworks */,
+				695390291CE57676006402EA /* libsubstrate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695390041CE575EF006402EA = {
+			isa = PBXGroup;
+			children = (
+				695390141CE575EF006402EA /* HowToLaunchApp */,
+				695390111CE575EF006402EA /* Frameworks */,
+				695390101CE575EF006402EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		695390101CE575EF006402EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6953900F1CE575EF006402EA /* HowToLaunchApp.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695390111CE575EF006402EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695390E71CE5BDFE006402EA /* UIKit.framework */,
+				695390281CE57676006402EA /* libsubstrate.dylib */,
+				695390121CE575EF006402EA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		695390141CE575EF006402EA /* HowToLaunchApp */ = {
+			isa = PBXGroup;
+			children = (
+				6953901C1CE575EF006402EA /* HowToLaunchApp.xm */,
+				6953901D1CE575EF006402EA /* HowToLaunchApp.mm */,
+				695390DF1CE5BCE1006402EA /* Main.h */,
+				695390E01CE5BCE1006402EA /* Main.m */,
+				695390E31CE5BD4C006402EA /* OpenApp.h */,
+				695390E41CE5BD4C006402EA /* OpenApp.m */,
+				6960FB731CEAF6E900FE9683 /* GetAllApps.h */,
+				6960FB741CEAF6E900FE9683 /* GetAllApps.m */,
+				6960FB771CEAF82900FE9683 /* Header.h */,
+				695390151CE575EF006402EA /* Package */,
+				695390191CE575EF006402EA /* Supporting Files */,
+			);
+			path = HowToLaunchApp;
+			sourceTree = "<group>";
+		};
+		695390151CE575EF006402EA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				695390161CE575EF006402EA /* DEBIAN */,
+				6953901F1CE575EF006402EA /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		695390161CE575EF006402EA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				695390171CE575EF006402EA /* control.txt */,
+				695390181CE575EF006402EA /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		695390191CE575EF006402EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6953901A1CE575EF006402EA /* PackageVersion.plist */,
+				6953901B1CE575EF006402EA /* HowToLaunchApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6953901F1CE575EF006402EA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				695390201CE575EF006402EA /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		695390201CE575EF006402EA /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				695390211CE575EF006402EA /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		695390211CE575EF006402EA /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				695390221CE575EF006402EA /* HowToLaunchApp.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6953900C1CE575EF006402EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695390E51CE5BD4C006402EA /* OpenApp.h in Headers */,
+				695390E11CE5BCE1006402EA /* Main.h in Headers */,
+				6960FB751CEAF6E900FE9683 /* GetAllApps.h in Headers */,
+				6960FB781CEAF82900FE9683 /* Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6953900E1CE575EF006402EA /* HowToLaunchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695390251CE575EF006402EA /* Build configuration list for PBXNativeTarget "HowToLaunchApp" */;
+			buildPhases = (
+				695390091CE575EF006402EA /* ShellScript */,
+				6953900A1CE575EF006402EA /* Sources */,
+				6953900B1CE575EF006402EA /* Frameworks */,
+				6953900C1CE575EF006402EA /* Headers */,
+				6953900D1CE575EF006402EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToLaunchApp;
+			productName = HowToLaunchApp;
+			productReference = 6953900F1CE575EF006402EA /* HowToLaunchApp.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		695390051CE575EF006402EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					6953900E1CE575EF006402EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 695390081CE575EF006402EA /* Build configuration list for PBXProject "HowToLaunchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 695390041CE575EF006402EA;
+			productRefGroup = 695390101CE575EF006402EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6953900E1CE575EF006402EA /* HowToLaunchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695390091CE575EF006402EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		6953900D1CE575EF006402EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6953900A1CE575EF006402EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6960FB761CEAF6E900FE9683 /* GetAllApps.m in Sources */,
+				695390E21CE5BCE1006402EA /* Main.m in Sources */,
+				6953901E1CE575EF006402EA /* HowToLaunchApp.mm in Sources */,
+				695390E61CE5BD4C006402EA /* OpenApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		695390231CE575EF006402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		695390241CE575EF006402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		695390261CE575EF006402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowToLaunchApp/HowToLaunchApp-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 10.10.10.29;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		695390271CE575EF006402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowToLaunchApp/HowToLaunchApp-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 10.10.10.29;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		695390081CE575EF006402EA /* Build configuration list for PBXProject "HowToLaunchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695390231CE575EF006402EA /* Debug */,
+				695390241CE575EF006402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695390251CE575EF006402EA /* Build configuration list for PBXNativeTarget "HowToLaunchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695390261CE575EF006402EA /* Debug */,
+				695390271CE575EF006402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 695390051CE575EF006402EA /* Project object */;
+}
